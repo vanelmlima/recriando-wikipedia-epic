@@ -1,6 +1,7 @@
 # Minha página wikipedia sobre EPIC
 
 Esse repositório tem a minha resolução do desafio recriando uma página da wikipédia.
+Veja aqui o resultado da página: [Recriando Wikipedia - EPIC](https://vanelmlima.github.io/recriando-wikipedia-epic/)
 
 ## Referências
 
