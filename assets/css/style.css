@@ -14,13 +14,13 @@ a { color:blue; text-decoration: none;}
 .content {
     max-width: 1440px;
     margin: auto;
-    grid-gap: 3rem;
+    grid-gap: 1rem;
     display: grid;
-    gap: 3rem;
+    gap: 1rem;
     grid-template-areas: "sidebar main anchors";
     grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 .footer {
     min-height: 100px;
@@ -30,12 +30,23 @@ a { color:blue; text-decoration: none;}
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
     max-width: 15vw;
+    min-width: 100px;
 }
 .sidebar {
     border-right: solid 1px #cdcdcd;
+    max-width: 15vw;
+    min-width: 100px;
+}
+.main {
+    width: auto;
+    margin: 1%;
 }
 figure {
     text-align: center;
+}
+.capas img {
+    width: 100%;
+    max-width: 300px;
 }
 .logo {
     text-align: left;
@@ -46,9 +57,16 @@ figure {
         display: flex;
         max-width: 1440px;
         margin: auto;
-        gap: 3rem;
+        gap: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+    .capas {
+        min-width: 70vw;
+        margin: 0;
+    }
+    .capas img {
+        width: 50vw;
     }
   }
   
