@@ -29,6 +29,7 @@ a { color:blue; text-decoration: none;}
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
+    max-width: 15vw;
 }
 .sidebar {
     border-right: solid 1px #cdcdcd;
@@ -39,3 +40,15 @@ figure {
 .logo {
     text-align: left;
 }
+
+@media (max-width: 768px) {
+    .content {
+        display: flex;
+        max-width: 1440px;
+        margin: auto;
+        gap: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+  }
+  
